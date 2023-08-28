@@ -1,8 +1,3 @@
-body {
-  font-family: Roboto, sans-serif;
-  color: #434455;
-  background-color: var(--white-background);
-}
 :root {
   --iris: #4d5ae5;
   --ocean: #404bbf;
@@ -15,6 +10,11 @@ body {
   --navy-blue-modal: #2e2f42;
   --white: #ffffff;
   --dairy: #fcfcfc;
+}
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--slate);
+  background-color: var(--white-background);
 }
 
 /* Header */
@@ -34,9 +34,7 @@ body {
 }
 .menu-link {
   color: var(--navy-blue);
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
@@ -47,7 +45,6 @@ body {
   color: var(--ocean);
 }
 .link-contact {
-  color: var(--slate);
   text-decoration: none;
 }
 .link-contact:hover,
@@ -62,22 +59,19 @@ body {
 }
 .hero-titel {
   color: var(--white);
-  font-family: Roboto;
   font-size: 56px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.43; /* 107.143% */
   letter-spacing: 1.12px;
 }
 .hero-button {
   color: var(--white);
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.64px;
   background-color: var(--iris, #4d5ae5);
+  cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -85,10 +79,8 @@ body {
 }
 .values-titel {
   color: var(--navy-blue);
-  font-family: Roboto;
   text-align: center;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.1; /* 111.111% */
   letter-spacing: 0.72px;
@@ -96,28 +88,20 @@ body {
 }
 .values-subtitle {
   color: var(--navy-blue);
-  font-family: Roboto;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
 }
 .values-description {
-  color: var(--slate);
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
 .activity-title {
   color: var(--navy-blue);
   text-align: center;
-  font-family: Roboto;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.1; /* 111.111% */
   letter-spacing: 0.72px;
@@ -129,9 +113,7 @@ body {
 .team-title {
   color: var(--navyblue, #2e2f42);
   text-align: center;
-  font-family: Roboto;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 40px; /* 111.111% */
   letter-spacing: 0.72px;
@@ -141,21 +123,15 @@ body {
   color: var(--navy-blue);
   background-color: var(--white);
   text-align: center;
-  font-family: Roboto;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
 }
 .team-position {
-  color: var(--slate);
   background-color: var(--white);
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
@@ -180,10 +156,7 @@ footer {
 }
 footer p {
   color: var(--cloud);
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
@@ -195,9 +168,7 @@ footer p {
   color: var(--iris);
   text-align: center;
   cursor: pointer;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.64px;
@@ -208,28 +179,20 @@ footer p {
   background: var(--ocean);
   color: var(--white, #fff);
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
 }
 .all-title {
   color: var(--navy-blue);
-  font-family: Roboto;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
 }
 .all-filter {
-  color: var(--slate);
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
