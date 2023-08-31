@@ -15,11 +15,15 @@ body {
   font-family: Roboto, sans-serif;
   color: var(--slate);
 }
-
-/* Header */
 .link {
   text-decoration: none;
+  cursor: pointer;
 }
+.list {
+  .list-style: none;
+}
+/* Header */
+
 .logo {
   color: var(--iris);
   font-family: Raleway, sans-serif;
@@ -28,13 +32,12 @@ body {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  text-decoration: none;
 }
-.header-logo-color {
+.logo .header-logo-color {
   color: var(--navy-blue);
 }
-.list {
-  .list-style: none;
-}
+
 .list .menu-link {
   color: var(--navy-blue);
   font-size: 16px;
@@ -81,7 +84,7 @@ body {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.64px;
-  background-color: var(--iris, #4d5ae5);
+  background-color: var(--iris);
   cursor: pointer;
 }
 .hero-button:hover,
@@ -150,10 +153,10 @@ body {
 
 /* Footer */
 
-footer {
+.page-footer {
   background-color: var(--navy-blue);
 }
-.link .page-footer .footer-logo {
+.footer-logo {
   color: var(--iris);
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -163,10 +166,10 @@ footer {
   text-transform: uppercase;
   text-decoration: none;
 }
-.link .footer-logo-color {
-  color: var(--cloud;);
+.footer-logo-color {
+  color: var(--cloud);
 }
-.page-footer .footer-text {
+.footer-text {
   color: var(--cloud);
   font-size: 16px;
   line-height: 1.5; /* 150% */
@@ -209,4 +212,35 @@ footer {
   font-size: 16px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+}
+
+.logo {
+}
+.header-logo-color {
+}
+.list {
+}
+.link {
+}
+.menu-link {
+}
+.contact {
+}
+.link-contact {
+}
+.all-option {
+}
+.filter-button {
+}
+.all-titel {
+}
+.all-filter {
+}
+.page-footer {
+}
+.footer-logo {
+}
+.footer-logo-color {
+}
+.footer-text {
 }
