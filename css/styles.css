@@ -51,6 +51,9 @@ body {
 .link .menu-link:focus {
   color: var(--ocean);
 }
+.contact {
+  font-style: normal;
+}
 .link .link-contact {
   color: var(--slate);
   font-size: 16px;
@@ -58,7 +61,6 @@ body {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   text-decoration: none;
-  font-style: normal;
 }
 .link-contact:hover,
 .link-contact:focus {
@@ -122,8 +124,11 @@ body {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
-.team-member {
+.team {
   background-color: var(--cloud);
+}
+.team-member {
+  background-color: var(--white);
 }
 .team-title {
   color: var(--navyblue, #2e2f42);
